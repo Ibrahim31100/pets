@@ -1,0 +1,329 @@
+header{
+    background-color:#E4F2FF;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    height: 905px;
+
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    background-image: url("../img/mask-group.png");
+    background-position: right bottom; /*Positioning*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+}
+
+
+.nav li, .nav ul, .nav img{
+    display: inline-block;
+}
+
+
+.nav-link{
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.nav-link li{
+    margin-right: 40px;
+}
+
+.logo-nav{
+    position: absolute;
+    left: 50%;
+    margin-left: -108px;
+    width: 216px;
+    top: 20px;
+}
+
+.nav-link-right{
+    position: absolute;
+    right: 80px;
+}
+
+.nav-link-right li a{
+    display: inline-block;
+    background-color:white;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.nav-link-right-active{
+    background-color: #ED6639 !important;
+    color:white;
+    font-weight: 700 !important;
+}
+
+.bell{
+    margin-top: 0px;
+}
+
+.bell{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    border-radius: 50% !important;
+}
+
+.bell img{
+    height: 21px;
+}
+
+.intro{
+    margin-top: 100px;
+}
+
+.intro h1{
+    color: #2164C9;
+    font-size: 82px;
+    font-weight: 400;
+    font-family: "Righteous";
+    line-height: 101.82px;
+}
+
+.intro p{
+    font-family: "Work Sans";
+    color: #3C5874;
+    font-weight: 500;
+    font-size: 24px;
+    line-height:28.15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    width: 70%;
+}
+
+.ilovemypets{
+    position: absolute;
+    right: 70px;
+    top: 200px;
+}
+
+.btn-intro{
+    width: 302px;
+    height: 66px;
+    border-radius: 50px;
+    border:2px solid #FFFFFF;
+    display: block;
+    background-color: #2164C9;
+    color:white;
+    text-align: center;
+    line-height: 62px;
+    font-size:28px;
+    font-family: "Work Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-intro img{
+    display: inline-block;
+    margin-left: 7px;
+    margin-top:-6px;
+}
+
+.ic_refresh{
+    background-color: #ED6639;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius:50% ;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.ic_refresh img{
+    width: 20px;
+    margin-top: -1px;
+}
+
+/* Bar latest vote */
+
+.scrool-vote{
+    width: calc(100% - 270px);
+    overflow-x:scroll ;
+    height: 76px;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.scrool-vote::-webkit-scrollbar{
+    display: none;
+}
+
+.latest-vote {
+  width: 100%;
+  margin-top: 905px ;
+  height: 104px;
+  background-color: #ff6737;
+  display: flex;
+  align-items: center;
+}
+
+.latest-vote-label{
+    margin-left: 66px;
+    display: flex;
+    align-items: center;
+    height: 104px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    left:0px;
+}
+
+.arrowLastestVote{
+    margin-left: 14px;
+    width: 26px;
+    height: 15px;
+}
+
+.latest-vote-card {
+    width: 213px;
+    height: 74px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 20px;
+    display: inline-block;
+}
+  
+
+.img-card{
+    width: 58px;
+    height: 58px;
+    margin: 8px;
+}
+
+
+.latest-vote-card-left{
+    width:auto;
+    display:inline-block;
+}
+  
+.latest-vote-card-right{
+    vertical-align:top;
+    width:auto;
+    display:inline-block;
+}
+  
+.latest-vote-card-time{
+    margin-top: 12px;
+    text-align: center;
+    top:0px;
+    width: 92px;
+    height: 15px;
+    background-color: #ff6737;
+    border-radius: 4px;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.latest-vote-card-time-label{
+    vertical-align: middle;
+}
+
+.latest-vote-card-name{
+    margin-top: 2px;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.latest-vote-card-voted{
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ff6737;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+
+/* New participant part*/
+
+.new-part{
+    background-color: #FFF9EC;
+    height: 1966px;
+}
+
+.new-part-title{
+    margin-top:70px;
+    text-align: center;
+}
+
+.new-part-title-img{
+    width: 138px;
+    height: 104px;
+    text-align: center;
+    display: inline-block;
+}
+
+.new-part-title-label{
+    height: 60px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+
+/* MESSAGE CAT */
+.cat-message{
+    display: flex;
+}
+.cat-message .message {
+    background-color: #066BD2;
+    color:white;
+    width: 50%;
+    display: inline-block;
+}
+
+.cat-message .image{
+    width: 50%;
+    display: inline-block;
+}
+
+.cat-message .image img{
+    width: 100%;
+}
+
+.cat-message .message img{
+    position: absolute;
+    right: 80px;
+    margin-top: -70px;
+    height: 161p;
+}
+
+.cat-message .message p{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 33px;
+    font-weight:400;
+    font-family: "Righteous";
+}
+
+.cat-message .message a{
+    display: block;
+    height: 54px;
+    width: 247px;
+    border-radius: 50px;
+    background-color:#FF6737;
+}
