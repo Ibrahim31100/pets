@@ -260,19 +260,19 @@ header{
 }
 
 .new-part-title{
-    margin-top:70px;
+    padding-top:70px;
     text-align: center;
 }
 
 .new-part-title-img{
-    width: 138px;
-    height: 104px;
+    width: 128px;
+    height: 95px;
     text-align: center;
     display: inline-block;
 }
 
 .new-part-title-label{
-    height: 60px;
+    height: 50px;
     font-family: "Righteous", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -282,7 +282,131 @@ header{
     line-height: normal;
 }
 
+/* Grid new part*/
 
+.new-part-second-part{
+    margin-top: 34px;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.new-part-card{
+    width: 388px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #d2d2d2;
+    padding: 4%;
+}
+
+.new-part-card-title{
+    /* margin: 4% 0% 0% 4%; */
+}
+
+.new-part-card-text{
+    font-family: "Work Sans", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.new-part-card-header{
+    margin: 10px 0px 10px 0px;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+.new-part-card-title-label{
+    color: #046BD2;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.new-part-card-img{
+    margin-top: 16px;
+}
+
+.new-part-card-img {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .new-part-card-img img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .new-part-card-img .bottom-left,
+  .new-part-card-img .bottom-right {
+    position: absolute;
+    bottom: 10px;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .new-part-card-img-bottom-right{
+    display: flex;
+    margin : 0px 10px 0px 10px;
+  }
+
+  .new-part-card-img-bottom-left{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+
+    
+
+
+  .new-part-card-img .bottom-left {
+    left: 10px;
+  }
+  
+  .new-part-card-img .bottom-right {
+    right: 10px;
+  }
+  
+
+.new-part-card-btn {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #046BD2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.new-part-card-btn svg {
+    margin-left: 5px;
+}
+
+.new-part-btn-view{
+    padding-top:70px;
+    text-align: center;
+}
 
 /* MESSAGE CAT */
 .cat-message{
