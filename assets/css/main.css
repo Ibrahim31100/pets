@@ -606,3 +606,31 @@ header{
 
 /* Help Part */
 
+
+
+
+/* Footer part */
+footer {
+    background: #E5F2FF;
+    padding: 10px;
+    text-align: center;
+    color: #2164C9;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+
