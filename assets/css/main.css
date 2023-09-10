@@ -138,6 +138,10 @@ header{
     margin-top: -1px;
 }
 
+.fix-margin-header{
+    margin-top: 900px;
+}
+
 /* Bar latest vote */
 
 .scrool-vote{
@@ -257,7 +261,6 @@ header{
 .new-part{
     background-color: #FFF9EC;
     height: 1966px;
-    margin-top: 775px;
 }
 
 .new-part-title{
@@ -606,7 +609,37 @@ header{
 
 /* Help Part */
 
+/* Latest vote blue part */
 
+.latest-vote-blue{
+    width: 100%;
+    margin-top: 25px ;
+    height: 104px;
+    background-color: #046BD2;
+    display: flex;
+    align-items: center;
+}
+
+.latest-vote-label-blue{
+    margin-left: 33px;
+    display: flex;
+    align-items: center;
+    height: 104px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    left:0px;
+}
+
+.latest-vote-card-time-blue{
+    background-color: #046BD2;
+}
+
+.latest-vote-card-voted-blue{
+    color: #046BD2;
+}
 
 
 /* Footer part */
